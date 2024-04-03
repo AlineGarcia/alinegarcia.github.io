@@ -11,6 +11,10 @@ body {
     bottom: 30px;
 }
 
+.m-auto {
+    margin: auto;
+}
+
 .cartao {
     margin: auto;
 }
@@ -56,6 +60,7 @@ body {
 .redes-desk .barraWhats {
     height: 52px;
     width: 100%;
+    border-radius: 18px;
 }
 
 .barraWhats {
@@ -179,6 +184,7 @@ body {
 .text-footer {
     position: absolute;
     bottom: 10px;
+    left: 0;
     font-size: 16px;
     color: #707070;
 }
