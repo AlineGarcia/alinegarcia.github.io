@@ -3,7 +3,7 @@ body {
 }
 
 .main {
-    display: flex;
+    /* display: flex; */
     position: fixed;
     top: 10px;
     left: 5px;
@@ -46,6 +46,16 @@ body {
     width: 152px;
     height: 99px;
     margin: auto;
+}
+
+.redes-desk {
+    margin-top: 10px;
+    padding-right: 16px;
+}
+
+.redes-desk .barraWhats {
+    height: 52px;
+    width: 100%;
 }
 
 .barraWhats {
@@ -145,11 +155,11 @@ body {
 }
 
 #grow {
-    -moz-transition: width .4s;
-    -ms-transition: width .4s;
-    -o-transition: width .4s;
-    -webkit-transition: width .4s;
-    transition: width .4s;
+    -moz-transition: width .3s;
+    -ms-transition: width .3s;
+    -o-transition: width .3s;
+    -webkit-transition: width .3s;
+    transition: width .3s;
     width: 0;
     overflow: hidden;
     margin: auto;
@@ -164,4 +174,94 @@ body {
     border-radius: 13px;
     opacity: 1;
     display: flex;
+}
+
+.text-footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 16px;
+    color: #707070;
+}
+
+@media (max-width: 770px) {
+    .desk {
+        display: none;
+    }
+}
+
+@media (min-width: 770px) {
+    .mobile {
+        display: none;
+    }
+}
+
+.card-setor {
+    margin-right: 30px;
+    width: 72px;
+    align-items: center;
+}
+
+.card-setor div {
+    width: 62px;
+    height: 62px;
+    background-image: url('./assets/Logo-branco.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 46px;
+    border-radius: 20px;
+    margin: auto;
+    opacity: 1;
+}
+
+.card-setor legend {
+    letter-spacing: 0.59px;
+    color: #707070;
+    opacity: 1;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.preto {
+    background-color: #000000;
+}
+.azul {
+    background-color: #0197D6;
+}
+.verde {
+    background-color: #40A809;
+}
+.cinza {
+    background-color: #AAAAAA;
+}
+.laranja {
+    background-color: #F48500;
+}
+.azul-d {
+    background-color: linear-gradient(145deg, #43A5A1 13%, #43A3A6 29%, #439DB4 49%, #4493CC 70%, #4686EE 92%, #4781FD 100%);
+}
+.roxo-d {
+    background-color: linear-gradient(152deg, #FF00FF 0%, #0197D6 100%);
+}
+
+h1 {
+    text-align: left;
+    font: normal normal medium;
+    font-size: 38px;
+    letter-spacing: 0px;
+    color: #00000099;
+    opacity: 1;
+    margin-bottom: 28px;
+    line-height: 38px;
+}
+
+div.small {
+    font-size: 14px;
+}
+
+.color-text {
+    letter-spacing: 0.59px;
+    color: #707070;
+    opacity: 1;
+    font-size: 14px;
 }
