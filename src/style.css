@@ -275,7 +275,6 @@ h1 {
     color: #00000099;
     opacity: 1;
     margin-bottom: 28px;
-    line-height: 38px;
 }
 
 div.small {
@@ -287,4 +286,18 @@ div.small {
     color: #707070;
     opacity: 1;
     font-size: 14px;
+}
+
+svg:hover path {
+    fill: #219FFF;
+}
+
+.icon-svg-g {
+    width: 24px;
+}
+.icon-svg-m {
+    width: 20px;
+}
+.icon-svg-p {
+    width: 13px;
 }
