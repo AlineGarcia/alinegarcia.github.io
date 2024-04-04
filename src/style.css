@@ -11,6 +11,12 @@ body {
     bottom: 30px;
 }
 
+.content {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+
 .m-auto {
     margin: auto;
 }
@@ -20,8 +26,8 @@ body {
 }
 
 .container {
-    width: 314px;
-    height: 323px;
+    width: 334px;
+    height: 343px;
     padding: 32px;
     background: #E5E5E5 0% 0% no-repeat padding-box;
     box-shadow: inset 0px 3px 10px #16161629, 0px -3px 6px #FFFFFFB3;
@@ -64,14 +70,13 @@ body {
 }
 
 .barraWhats {
-    width: 324px;
+    width: 334px;
     height: 72px;
     background: #E5E5E5 0% 0% no-repeat padding-box;
     box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #FFFFFFB3;
     border-radius: 25px;
     opacity: 1;
     color: #6F6A5E;
-    margin-top: 40px;
     display: flex;
     cursor: pointer;
     text-decoration: none;
@@ -189,15 +194,23 @@ body {
     color: #707070;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 940px) {
     .desk {
         display: none;
     }
 }
 
-@media (min-width: 770px) {
+@media (min-width: 940px) {
     .mobile {
         display: none;
+    }
+    .container {
+        width: 364px;
+        height: 373px;
+    }
+    .containerMenor img {
+        width: 182px;
+        height: 129px;
     }
 }
 
@@ -243,11 +256,15 @@ body {
 .laranja {
     background-color: #F48500;
 }
-.azul-d {
-    background-color: linear-gradient(145deg, #43A5A1 13%, #43A3A6 29%, #439DB4 49%, #4493CC 70%, #4686EE 92%, #4781FD 100%);
+#azul-d {
+    background-image: linear-gradient(145deg, #43A5A1 13%, #43A3A6 29%, #439DB4 49%, #4493CC 70%, #4686EE 92%, #4781FD 100%);
+    background-repeat: repeat;
+    background-size: auto;
 }
-.roxo-d {
-    background-color: linear-gradient(152deg, #FF00FF 0%, #0197D6 100%);
+#roxo-d {
+    background-image: linear-gradient(152deg, #FF00FF 0%, #0197D6 100%);
+    background-repeat: repeat;
+    background-size: auto;
 }
 
 h1 {
