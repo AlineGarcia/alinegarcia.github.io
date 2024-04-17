@@ -24,63 +24,66 @@ body {
 }
 
 .conteudo {
-    width: 100%;
     height: 500px;
-    position: fixed;
+    width: 355px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('./assets/Cabide\ de\ Ouro.png');
+    margin: auto;
+    position: relative;
 }
 
 .img-conteudo {
-    width: 100%;
+    width: 360px;
     position: fixed;
     bottom: 0;
     left: 0;
+    right: 0;
 }
 
 .icon-face {
+    background-attachment: fixed;
     position: absolute;
-    bottom: 165px;
-    left: 36px;
-    position: fixed;
+    bottom: 158px;
+    left: 33px;
 }
 
 .icon-insta {
     position: absolute;
-    bottom: 120px;
-    left: 80px;
-    position: fixed;
+    bottom: 105px;
+    left: 75px;
     }
 
 .icon-troca {
     position: absolute;
-    bottom: 198px;
-    left: 122px;
-    position: fixed;
+    bottom: 190px;
+    left: 112px;
 }
 
 .icon-site {
     position: absolute;
-    bottom: 50px;
-    left: 161px;
-    position: fixed;
+    bottom: 43px;
+    left: 150px;
 }
 
 .icon-promocao {
     position: absolute;
-    bottom: 201px;
-    left: 217px;
-    position: fixed;
+    bottom: 195px;
+    left: 204px;
 }
 
 .icon-whatsapp {
     position: absolute;
-    bottom: 120px;
-    left: 257px;
-    position: fixed;
+    bottom: 100px;
+    left: 243px;
 }
 
 .icon-duvida {
     position: absolute;
-    bottom: 165px;
-    left: 306px;
-    position: fixed;
+    bottom: 160px;
+    left: 289px;
+}
+
+.d-flex {
+    display: flex;
 }
