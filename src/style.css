@@ -1,318 +1,86 @@
-body {
-    background-color: #E5E5E5;
-}
-
-.main {
-    position: fixed;
-    top: 10px;
-    left: 5px;
-    right: 5px;
-    bottom: 30px;
-}
-
-.content {
-    max-width: 1200px;
+html {
     height: 100%;
-    margin: auto;
 }
 
-.m-auto {
-    margin: auto;
-}
-
-.cartao {
-    margin: auto;
+body {
+    background-image: url('./assets/22.png');
+    height: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
-    width: 334px;
-    height: 343px;
-    padding: 32px;
-    background: #E5E5E5 0% 0% no-repeat padding-box;
-    box-shadow: inset 0px 3px 10px #16161629, 0px -3px 6px #FFFFFFB3;
-    border-radius: 55px;
-    opacity: 1;
-}
-
-.containerMenor {
-    width: 100%;
-    height: 100%;
-    background: #E5E5E5 0% 0% no-repeat padding-box;
-    box-shadow:  inset 0px 0px 15px #0000003d, 0px 0px 30px #00000036;
-    border-radius: 32px;
-    opacity: 1;
-    display: flex;
-    cursor: pointer;
-}
-
-.containerMenor img {
-    width: 152px;
-    height: 99px;
     margin: auto;
 }
 
-.redes-desk {
-    margin-top: 10px;
-    padding-right: 16px;
+.logo {
+    width: 200px;
 }
 
-.redes-desk .barraWhats {
-    height: 52px;
-    width: 100%;
-    border-radius: 18px;
-}
-
-.barraWhats {
-    width: 334px;
-    height: 72px;
-    background: #E5E5E5 0% 0% no-repeat padding-box;
-    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #FFFFFFB3;
-    border-radius: 25px;
-    opacity: 1;
-    color: #6F6A5E;
-    display: flex;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.img-whats {
+.containerLogo {
+    width: 200px;
     margin: auto;
-    width: 28px;
-    height: 28px;
-    background-image: url('./assets/whatsapp.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.barraWhats:hover .img-whats {
-    background-image: url('./assets/whatsapp-branco.svg');
-}
-
-.barraWhats:hover {
-    background-color: #24C961; 
-    color: #fff;
-}
-
-.barraWhats:hover .divider {
-    border: 0.5px solid #fff;
-}
-
-.barraWhats-texto {
-    text-align: left;
-    font: normal normal 300 15px/17px;
-    letter-spacing: 0px;
-    opacity: 1;
-    font-size: 14px;
-    margin: auto;
-}
-
-.divider {
-    height: 38px;
-    width: 0.5px;
-    border: 0.5px solid #00000073;
-    margin: auto 0;
-}
-
-#botao-min {
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
-    background: #DADADA 0% 0% no-repeat padding-box;
-    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
-    opacity: 1;
-    margin: 0 auto;
-    padding: 13.5px;
-    position: relative;
-    top: 55px;
-    display: none;
-}
-
-.card-btn {
-    margin-top: 69px;
-    height: 80px;
-}
-
-#botao-mais {
-    top: 650px;
-    left: 174px;
-    width: 81px;
-    height: 79px;
-    background: #E5E5E5 0% 0% no-repeat padding-box;
-    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #FFFFFFB3;
-    border-radius: 40px;
-    opacity: 1;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.img-auto {
-    margin: auto;
-}
-
-.barra-redes {
-    height: 80px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    display: flex;
-}
-
-#grow {
-    -moz-transition: width .3s;
-    -ms-transition: width .3s;
-    -o-transition: width .3s;
-    -webkit-transition: width .3s;
-    transition: width .3s;
-    width: 0;
-    overflow: hidden;
-    margin: auto;
-    display: none;
 }
 
 .conteudo {
     width: 100%;
-    height: 69px;
-    background: #E5E5E5 0% 0% no-repeat padding-box;
-    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #FFFFFFB3;
-    border-radius: 13px;
-    opacity: 1;
-    display: flex;
+    height: 500px;
+    position: fixed;
 }
 
-.text-footer {
-    position: absolute;
-    bottom: 10px;
+.img-conteudo {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
     left: 0;
-    font-size: 16px;
-    color: #707070;
 }
 
-@media (max-width: 940px) {
-    .desk {
-        display: none;
+.icon-face {
+    position: absolute;
+    bottom: 165px;
+    left: 36px;
+    position: fixed;
+}
+
+.icon-insta {
+    position: absolute;
+    bottom: 120px;
+    left: 80px;
+    position: fixed;
     }
+
+.icon-troca {
+    position: absolute;
+    bottom: 198px;
+    left: 122px;
+    position: fixed;
 }
 
-@media (min-width: 940px) {
-    .mobile {
-        display: none;
-    }
-    .container {
-        width: 364px;
-        height: 373px;
-    }
-    .containerMenor img {
-        width: 182px;
-        height: 129px;
-    }
+.icon-site {
+    position: absolute;
+    bottom: 50px;
+    left: 161px;
+    position: fixed;
 }
 
-.card-setor {
-    margin-right: 30px;
-    width: 72px;
-    align-items: center;
+.icon-promocao {
+    position: absolute;
+    bottom: 201px;
+    left: 217px;
+    position: fixed;
 }
 
-.card-setor div {
-    width: 62px;
-    height: 62px;
-    background-image: url('./assets/Logo-branco.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 46px;
-    border-radius: 20px;
-    margin: auto;
-    opacity: 1;
+.icon-whatsapp {
+    position: absolute;
+    bottom: 120px;
+    left: 257px;
+    position: fixed;
 }
 
-.card-setor legend {
-    letter-spacing: 0.59px;
-    color: #707070;
-    opacity: 1;
-    font-size: 14px;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.preto {
-    background-color: #000000;
-}
-.azul {
-    background-color: #0197D6;
-}
-.verde {
-    background-color: #40A809;
-}
-.cinza {
-    background-color: #AAAAAA;
-}
-.laranja {
-    background-color: #F48500;
-}
-#azul-d {
-    background-image: linear-gradient(145deg, #43A5A1 13%, #43A3A6 29%, #439DB4 49%, #4493CC 70%, #4686EE 92%, #4781FD 100%);
-    background-repeat: repeat;
-    background-size: auto;
-}
-#roxo-d {
-    background-image: linear-gradient(152deg, #FF00FF 0%, #0197D6 100%);
-    background-repeat: repeat;
-    background-size: auto;
-}
-
-.preto:hover {
-    box-shadow: 0px 1px 10px #000000;
-}
-.azul:hover {
-    box-shadow: 0px 1px 10px #0197D6;
-}
-.verde:hover {
-    box-shadow: 0px 1px 10px #40A809;
-}
-.cinza:hover {
-    box-shadow: 0px 1px 10px #AAAAAA;
-}
-.laranja:hover {
-    box-shadow: 0px 1px 10px #F48500;
-}
-#azul-d:hover {
-    box-shadow: 0px 1px 10px #4686EE;
-}
-#roxo-d:hover {
-    box-shadow: 0px 1px 10px #6901be;
-}
-
-h1 {
-    text-align: left;
-    font: normal normal medium;
-    font-size: 38px;
-    letter-spacing: 0px;
-    color: #00000099;
-    opacity: 1;
-    margin-bottom: 28px;
-}
-
-div.small {
-    font-size: 14px;
-}
-
-.color-text {
-    letter-spacing: 0.59px;
-    color: #707070;
-    opacity: 1;
-    font-size: 14px;
-}
-
-svg:hover path {
-    fill: #219FFF;
-}
-
-.icon-svg-g {
-    width: 24px;
-}
-.icon-svg-m {
-    width: 20px;
-}
-.icon-svg-p {
-    width: 13px;
+.icon-duvida {
+    position: absolute;
+    bottom: 165px;
+    left: 306px;
+    position: fixed;
 }
