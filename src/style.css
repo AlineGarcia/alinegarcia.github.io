@@ -15,11 +15,11 @@ body {
 }
 
 .logo {
-    width: 200px;
+    width: 250px;
 }
 
 .containerLogo {
-    width: 200px;
+    width: 250px;
     margin: auto;
 }
 
@@ -50,7 +50,7 @@ body {
 
 .icon-insta {
     position: absolute;
-    bottom: 105px;
+    bottom: 115px;
     left: 75px;
     }
 
@@ -68,7 +68,7 @@ body {
 
 .icon-promocao {
     position: absolute;
-    bottom: 195px;
+    bottom: 189px;
     left: 204px;
 }
 
