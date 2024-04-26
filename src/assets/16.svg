@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" zoomAndPan="magnify" viewBox="0 0 810 809.999993" height="1080" preserveAspectRatio="xMidYMid meet" version="1.0">
     <defs>
         <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
-            <feGaussianBlur in="SourceAlpha" stdDeviation="20" />
-            <feOffset dx="25" dy="35" result="offsetblur" />
+            <feGaussianBlur in="SourceAlpha" stdDeviation="16" />
+            <feOffset dx="10" dy="35" result="offsetblur" />
             <feFlood flood-color="rgba(0,0,0,1.9)" />
             <feComposite in2="offsetblur" operator="in" />
             <feMerge>
