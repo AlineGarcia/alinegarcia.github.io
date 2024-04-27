@@ -25,9 +25,9 @@ body {
     width: 250px;
     /* margin: auto; */
     position: fixed;
-    margin-left: 70px;
+    margin-left: 55px;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .conteudo {
@@ -39,7 +39,7 @@ body {
     margin: auto;
     position: fixed;
     justify-content: center;
-    margin-top: 205px;
+    margin-top: 170px;
 }
 
 @media (mix-width: 760px) {
@@ -48,6 +48,9 @@ body {
         position: fixed;
         justify-content: center;
         margin-bottom: 50px;
+    }
+    .containerLogo{
+        width: 50px;
     }
     .conteudo {
        margin-bottom: 190px;
