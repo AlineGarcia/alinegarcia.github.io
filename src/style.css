@@ -27,7 +27,7 @@ body {
     position: fixed;
     margin-left: 55px;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .conteudo {
@@ -39,7 +39,7 @@ body {
     margin: auto;
     position: fixed;
     justify-content: center;
-    margin-top: 170px;
+    margin-top: 158px;
 }
 
 @media (mix-width: 760px) {
