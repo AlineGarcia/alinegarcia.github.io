@@ -12,6 +12,9 @@ body {
 
 .container {
     margin: auto;
+    position:  fixed;
+    justify-content: center;
+    margin-top: 45;
 }
 
 .logo {
@@ -20,7 +23,11 @@ body {
 
 .containerLogo {
     width: 250px;
-    margin: auto;
+    /* margin: auto; */
+    position: fixed;
+    margin-left: 70px;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .conteudo {
@@ -30,7 +37,23 @@ body {
     background-repeat: no-repeat;
     background-image: url('./assets/Cabide\ de\ Ouro.png');
     margin: auto;
-    position: relative;
+    position: fixed;
+    justify-content: center;
+    margin-top: 205px;
+}
+
+@media (mix-width: 760px) {
+    .desk {
+        margin: auto;
+        position: fixed;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .conteudo {
+       margin-bottom: 190px;
+       position: relative;
+       display: flex;
+    }
 }
 
 .img-conteudo {
@@ -86,4 +109,5 @@ body {
 
 .d-flex {
     display: flex;
+    justify-content: center;
 }
