@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-image: url('./assets/22.png');
+    background-image: url('./assets/Bem-Vindo (1).png');
     height: 100%;
     display: flex;
     background-repeat: no-repeat;
@@ -23,7 +23,6 @@ body {
 
 .containerLogo {
     width: 250px;
-    /* margin: auto; */
     position: fixed;
     margin-left: 55px;
     justify-content: center;
@@ -35,7 +34,7 @@ body {
     width: 355px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('./assets/Cabide\ de\ Ouro.png');
+    background-image: url('./assets/Bem-Vindo.png');
     margin: auto;
     position: fixed;
     justify-content: center;
@@ -67,23 +66,10 @@ body {
     right: 0;
 }
 
-.icon-face {
-    background-attachment: fixed;
-    position: absolute;
-    bottom: 158px;
-    left: 33px;
-}
-
 .icon-insta {
     position: absolute;
     bottom: 115px;
     left: 75px;
-    }
-
-.icon-troca {
-    position: absolute;
-    bottom: 190px;
-    left: 112px;
 }
 
 .icon-site {
@@ -92,22 +78,10 @@ body {
     left: 150px;
 }
 
-.icon-promocao {
-    position: absolute;
-    bottom: 189px;
-    left: 204px;
-}
-
 .icon-whatsapp {
     position: absolute;
     bottom: 105px;
     left: 244px;
-}
-
-.icon-duvida {
-    position: absolute;
-    bottom: 160px;
-    left: 289px;
 }
 
 .d-flex {
