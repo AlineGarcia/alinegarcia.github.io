@@ -47,7 +47,7 @@ body {
 }
 
 .conteudo {
-    height: 160px;
+    height: 145px;
     width: 100%;
     background-size: inherit;
     background-repeat: no-repeat;
@@ -98,12 +98,16 @@ body {
     margin: 0 auto;
 } */
 
-.m-icon {
+.m-carrinho {
     margin-bottom: 85px !important;
 }
 
+.m-icon {
+    margin-top: -10px !important;
+}
+
 .m-negativo {
-    margin-top: -15px !important;
+    margin-top: -20px !important;
 }
 
 .direcao {
