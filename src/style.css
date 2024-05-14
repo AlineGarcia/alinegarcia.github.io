@@ -7,41 +7,53 @@ body {
     height: 100%;
     display: flex;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
 .container {
-    margin: auto;
-    position:  fixed;
-    justify-content: center;
-    margin-top: 45;
+    height: 100%;
 }
 
 .logo {
-    width: 250px;
+    width: 180px;
 }
 
 .containerLogo {
-    width: 250px;
-    position: fixed;
-    margin-left: 55px;
+    width: 180px;
+    align-content: center;
+    margin: auto;
+    display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 2px;
 }
 
-.conteudo {
-    height: 500px;
-    width: 355px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url('./assets/Bem-Vindo.png');
-    margin: auto;
-    position: fixed;
-    justify-content: center;
-    margin-top: 140px;
+.titulo {
+    font-size: 20px;
+    color: #82DDFF;
+    font-weight: bold;
+    text-align: center
 }
 
-@media (mix-width: 760px) {
+.frase {
+    font-size: 15px;
+    color: #5DD3FF;
+    font-weight: bold;
+    text-align: center
+}
+
+.conteudo {
+    height: 160px;
+    width: 100%;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-image: url('./assets/Logotipo\ circular\ moderno\ vintage\ iniciais\ laranja\ e\ cinza\ \(3\).png');
+    background-position: center;
+    display: flex;
+}
+
+@media (min-width: 760px) {
     .desk {
         margin: auto;
         position: fixed;
@@ -51,10 +63,19 @@ body {
     .containerLogo{
         width: 50px;
     }
-    .conteudo {
-       margin-bottom: 190px;
-       position: relative;
-       display: flex;
+    /* .conteudo {
+        height: 185px;
+    } */
+    .prateleira {
+        border-left: 2px solid rgba(29, 29, 29, 0.842);
+        border-right: 2px solid rgba(29, 29, 29, 0.842);
+    }
+    .contexto {
+        width: 1000px;
+        margin: auto;
+    }
+    .container {
+        display: flex;
     }
 }
 
@@ -66,25 +87,22 @@ body {
     right: 0;
 }
 
-.icon-insta {
-    position: absolute;
-    bottom: 115px;
-    left: 75px;
-}
-
-.icon-site {
-    position: absolute;
-    bottom: 43px;
-    left: 150px;
-}
-
-.icon-whatsapp {
-    position: absolute;
-    bottom: 105px;
-    left: 244px;
-}
-
 .d-flex {
     display: flex;
-    justify-content: center;
+}
+
+/* .m-auto {
+    margin: 0 auto;
+} */
+
+.m-icon {
+    margin-bottom: 85px !important;
+}
+
+.m-negativo {
+    margin-top: -15px !important;
+}
+
+.direcao {
+    flex-direction: column;
 }
