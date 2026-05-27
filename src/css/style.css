@@ -68,6 +68,11 @@
   color: rgb(0, 0, 0);
   border-radius: 999px;
   padding: 14px 28px;
-  margin-left: 20px;
+  margin-left: 25px;
   font-weight: bold;
+}
+
+.col-12 {
+  display: flex;
+  align-items: center;
 }
