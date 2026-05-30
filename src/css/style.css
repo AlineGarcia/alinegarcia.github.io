@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
     background:
         radial-gradient(
@@ -71,16 +77,19 @@ body {
 .header-left {
   display: flex;
   align-items: center;
-  gap: 42px;
+  gap: 46px;
 }
 
 .header .container {
   max-width: 1200px;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .logo {
-  width: 58px;
-  height: 58px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   object-fit: cover;
   border:
@@ -279,28 +288,35 @@ body {
   }
 
   .hero-title {
-    font-size: 3rem;
+    font-size: 3.4rem;
     line-height: 0.95;
   }
 
   .hero-text {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     line-height: 1.7;
   }
 
   .hero-info {
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
   }
 
   .info-item strong {
-    font-size: 1.1rem;
+    font-size: 3.1rem;
   }
 
   .header .container {
-    padding: 0 20px;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 16px;
   }
   .btn-vaga {
+    margin-right: 0;
+    padding: 10px 16px;
+    font-size: 0.85rem;
+  }
+  .btn-funciona {
     margin-right: 0;
     padding: 10px 16px;
     font-size: 0.85rem;
@@ -311,8 +327,11 @@ body {
   }
 
   .header-wrapper {
-    justify-content: space-between;
     width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .header-left {
     gap: 12px;
@@ -322,14 +341,12 @@ body {
     font-size: 0.85rem;
   }
   .hero-content {
-    text-align: center;
-    max-width: 100%;
-    padding: 0 28px;
-    margin-top: 40px;
+    text-align: left;
+    padding: 0 24px;
   }
   .hero-info {
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
     width: 100%;
   }
   .info-item {
@@ -342,7 +359,7 @@ body {
     display: none;
   }
   .info-title i {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .info-item strong {
     font-size: 1.15rem;
@@ -437,24 +454,19 @@ body {
     gap: 20px;
   } */
   .hero-actions {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
+    align-items: flex-start;
     width: 100%;
   }
 
   .hero-actions a {
     flex: 1;
     min-width: 140px;
-    text-align: center;
+    align-items: flex-start;
   }
   .hero-actions .btn-vaga,
-  .hero-actions .btn-funciona {
+  .hero-actions .btn-funciona{
     width: 100%;
     max-width: 320px;
-    padding: 16px 24px;
-    font-size: 1rem;
   }
 }
 
