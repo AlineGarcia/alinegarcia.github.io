@@ -191,6 +191,19 @@
     .about-text {
         font-size: 1.05rem;
     }
+
+  /* Terceira Section mobile - cards*/
+
+    .steps-grid {
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+
+    .step-card {
+      min-height: auto;
+      padding: 24px;
+    }
+
 }
 
 
