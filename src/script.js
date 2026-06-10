@@ -9,3 +9,18 @@ window.addEventListener('scroll', () => {
   }
 
 });
+
+const faqCards = document.querySelectorAll('.faq-card');
+
+faqCards.forEach(card => {
+
+    const question =
+        card.querySelector('.faq-question');
+
+    question.addEventListener('click', () => {
+
+        card.classList.toggle('active');
+
+    });
+
+});
