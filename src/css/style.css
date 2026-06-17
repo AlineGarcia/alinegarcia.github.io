@@ -616,3 +616,120 @@ body {
 .faq-card.active .faq-question i {
     transform: rotate(45deg);
 }
+
+/* Footer - inicio */ 
+
+.footer {
+    margin-top: 120px;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255,255,255,0.02),
+            rgba(0,0,0,0.15)
+        );
+    border-top:
+        1px solid rgba(255,255,255,0.08);
+    padding: 70px 0 30px;
+}
+
+/* .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+} */
+
+.footer-content {
+    display: grid;
+    grid-template-columns:
+        2fr 1fr 1fr;
+    gap: 80px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-brand {
+    flex: 1;
+    min-width: 320px;
+    max-width: 450px;
+}
+
+.footer-brand h3 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer-brand p {
+    color: rgba(255,255,255,0.7);
+    line-height: 1.8;
+}
+
+.footer-links,
+.footer-social {
+    display: flex;
+    min-width: 180px;
+    flex-direction: column;
+}
+
+.footer-links h4,
+.footer-social h4 {
+    color: white;
+    margin-bottom: 16px;
+    font-size: 1rem;
+}
+
+.footer-links a {
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+
+.footer-links a:hover {
+    color: #27d66f;
+}
+
+.social-icons {
+    display: flex;
+    gap: 16px;
+}
+
+.social-icons a {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:
+        rgba(255,255,255,0.04);
+    border:
+        1px solid rgba(255,255,255,0.08);
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: all .3s ease;
+}
+
+.social-icons a:hover {
+    transform: translateY(-4px);
+    border-color: #27d66f;
+    color: #27d66f;
+    box-shadow:
+        0 0 25px rgba(39,214,111,.25);
+}
+
+.footer-bottom {
+    margin-top: 60px;
+    padding-top: 25px;
+    border-top:
+        1px solid rgba(255,255,255,0.08);
+    text-align: center;
+    color: rgba(255,255,255,0.5);
+    font-size: .9rem;
+}
